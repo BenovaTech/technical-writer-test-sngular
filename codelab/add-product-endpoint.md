@@ -33,7 +33,6 @@ public class CreateProductRequest {
 
     @NotBlank(message = "Product name is required")
     private String name;
-
     @NotNull(message = "Price is required")
     @Positive(message = "Price must be positive")
     private BigDecimal price;
